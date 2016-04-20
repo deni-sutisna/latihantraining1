@@ -1,0 +1,8 @@
+table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dddddd;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #2073A8;
+    color: #FFF;
+} 
