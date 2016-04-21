@@ -49,6 +49,12 @@ public class HomeController {
 	}
 	
 	@GET
+	@Path("/helloguys")
+	@Produces("text/plain")
+	public String helloguys() {
+		return "Hello Guys!!! text";
+	}
+	@GET
 	@Path("/welcome")
 	public void showJSP(@Context HttpServletResponse response,
 			@Context HttpServletRequest request, @Context UriInfo uri)
