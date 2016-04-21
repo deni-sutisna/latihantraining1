@@ -27,7 +27,7 @@ import model.Product;
 public class HomeController {
 
 	private EntityManager em;
-
+// connect ke entity manager
 	private static EntityManager getEntityManager() throws NamingException {
 		EntityManagerFactory emf = Persistence
 				.createEntityManagerFactory("contoh1");
